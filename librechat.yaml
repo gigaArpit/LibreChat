@@ -201,7 +201,7 @@ endpoints:
 
     # Perplexity
     - name: "Perplexity"
-      apiKey: "${PERPLEXITY_API_KEY}"
+      apiKey: "user_provided"
       baseURL: "https://api.perplexity.ai/"
       models:
         default: [
